@@ -1,0 +1,49 @@
+.container {
+    max-width: 600px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+.page-header {
+    text-align: center;
+}
+
+.soundbord-row {
+    display: flex;
+
+    align-content: center;
+    justify-content: center;
+}
+
+.sounbord__btn-wrapper {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+
+    transition: all .10s ease;
+    text-align: center;
+
+    border: 2px solid black;
+    background-color: #e0e0e0;
+
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sounbord__btn {
+    width: 100%;
+}
+
+.sounbord__description {
+    padding: 0;
+    margin: 0;
+
+    text-align: center;
+}
+
+.playing {
+    border-color: black;
+    box-shadow: 0 0 5px black;
+}
